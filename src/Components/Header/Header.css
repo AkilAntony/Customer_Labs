@@ -1,0 +1,28 @@
+header {
+  height: 60px;
+  color: white;
+  display: flex;
+  gap: 10px;
+  background-color: #24bdad;
+}
+.hiden {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  opacity: 0.4;
+  filter: blur(0.1px);
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+header div {
+  padding-left: 10px;
+}
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}

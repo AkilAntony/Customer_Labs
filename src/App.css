@@ -1,0 +1,46 @@
+/* .mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+.header-poup {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonContainer {
+  margin: 20px;
+}
+.buttonContainer button {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+} */
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.header-button-container {
+  width: 100%;
+}
+.header-button-container button {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 25px;
+}
+.show {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+  /* Make it look visually disabled */
+  filter: blur(0.1px);
+}
+.show button {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 25px;
+}
